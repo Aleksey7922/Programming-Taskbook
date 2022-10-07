@@ -1,4 +1,4 @@
-#include<iostream>
+п»ї#include<iostream>
 using namespace std;
 using  std::cout;
 using  std::cin;
@@ -32,30 +32,30 @@ void main()
 #ifdef CASE_1
 
 	char a;
-	cout << "введите число в диапозоне 1-7:\t"; cin >> a;
+	cout << "РІРІРµРґРёС‚Рµ С‡РёСЃР»Рѕ РІ РґРёР°РїРѕР·РѕРЅРµ 1-7:\t"; cin >> a;
 	switch (a)
 	{
-	case'1':cout << "понедельник\n"; break;
-	case'2':cout << "вторник\n"; break;
-	case'3':cout << "среда\n"; break;
-	case'4':cout << "четверг\n"; break;
-	case'5':cout << "пятница\n"; break;
-	case'6':cout << "суббота\n"; break;
-	case'7':cout << "воскресенье\n"; break;
-	default:cout << "нет такого дня недели"; break;
+	case'1':cout << "РїРѕРЅРµРґРµР»СЊРЅРёРє\n"; break;
+	case'2':cout << "РІС‚РѕСЂРЅРёРє\n"; break;
+	case'3':cout << "СЃСЂРµРґР°\n"; break;
+	case'4':cout << "С‡РµС‚РІРµСЂРі\n"; break;
+	case'5':cout << "РїСЏС‚РЅРёС†Р°\n"; break;
+	case'6':cout << "СЃСѓР±Р±РѕС‚Р°\n"; break;
+	case'7':cout << "РІРѕСЃРєСЂРµСЃРµРЅСЊРµ\n"; break;
+	default:cout << "РЅРµС‚ С‚Р°РєРѕРіРѕ РґРЅСЏ РЅРµРґРµР»Рё"; break;
 	}
 #endif // CASE_1
 
 #ifdef CASE_2
 	char a;
-	cout << "введите число в диапозоне 1-5:\t"; cin >> a;
+	cout << "РІРІРµРґРёС‚Рµ С‡РёСЃР»Рѕ РІ РґРёР°РїРѕР·РѕРЅРµ 1-5:\t"; cin >> a;
 	switch (a)
 	{
-	case'1':cout << "плохо\n"; break;
-	case'2':cout << "неудовлетворительно\n"; break;
-	case'3':cout << "плохо\n"; break;
-	case'4':cout << "хорошо\n"; break;
-	case'5':cout << "отлично\n"; break;
+	case'1':cout << "РїР»РѕС…Рѕ\n"; break;
+	case'2':cout << "РЅРµСѓРґРѕРІР»РµС‚РІРѕСЂРёС‚РµР»СЊРЅРѕ\n"; break;
+	case'3':cout << "РїР»РѕС…Рѕ\n"; break;
+	case'4':cout << "С…РѕСЂРѕС€Рѕ\n"; break;
+	case'5':cout << "РѕС‚Р»РёС‡РЅРѕ\n"; break;
 	default:cout << "error"; break;
 
 	}
@@ -64,21 +64,21 @@ void main()
 #ifdef CASE_3
 
 	char a;
-	cout << "введите число в диапозоне 1-12:\t"; cin >> a;
+	cout << "РІРІРµРґРёС‚Рµ С‡РёСЃР»Рѕ РІ РґРёР°РїРѕР·РѕРЅРµ 1-12:\t"; cin >> a;
 	switch (a)
 	{
-	case'1':cout << "зима\n"; break;
-	case'2':cout << "зима\n"; break;
-	case'3':cout << "весна\n"; break;
-	case'4':cout << "весна\n"; break;
-	case'5':cout << "весна\n"; break;
-	case'6':cout << "лето\n"; break;
-	case'7':cout << "лето\n"; break;
-	case'8':cout << "лето\n"; break;
-	case'9':cout << "осень\n"; break;
-	case'10':cout << "осень\n"; break;
-	case'11':cout << "осень\n"; break;
-	case'12':cout << "зима\n"; break;
+	case'1':cout << "Р·РёРјР°\n"; break;
+	case'2':cout << "Р·РёРјР°\n"; break;
+	case'3':cout << "РІРµСЃРЅР°\n"; break;
+	case'4':cout << "РІРµСЃРЅР°\n"; break;
+	case'5':cout << "РІРµСЃРЅР°\n"; break;
+	case'6':cout << "Р»РµС‚Рѕ\n"; break;
+	case'7':cout << "Р»РµС‚Рѕ\n"; break;
+	case'8':cout << "Р»РµС‚Рѕ\n"; break;
+	case'9':cout << "РѕСЃРµРЅСЊ\n"; break;
+	case'10':cout << "РѕСЃРµРЅСЊ\n"; break;
+	case'11':cout << "РѕСЃРµРЅСЊ\n"; break;
+	case'12':cout << "Р·РёРјР°\n"; break;
 	default:cout << "error"; break;
 	}
 #endif // CASE_3
@@ -87,8 +87,8 @@ void main()
 
 	int b = 0;
 	int a;
-	cout << "введите положительное число :\t"; cin >> a;
-	cout << "введите второе положительное,меньше первого числа :\t"; cin >> b;
+	cout << "РІРІРµРґРёС‚Рµ РїРѕР»РѕР¶РёС‚РµР»СЊРЅРѕРµ С‡РёСЃР»Рѕ :\t"; cin >> a;
+	cout << "РІРІРµРґРёС‚Рµ РІС‚РѕСЂРѕРµ РїРѕР»РѕР¶РёС‚РµР»СЊРЅРѕРµ,РјРµРЅСЊС€Рµ РїРµСЂРІРѕРіРѕ С‡РёСЃР»Р° :\t"; cin >> b;
 	while (a >= 0)
 	{
 		a -= b;
@@ -100,8 +100,8 @@ void main()
 
 #ifdef INTEGER_5
 	int a, b;
-	cout << "введите первое число "; cin >> a;
-	cout << "введите второе число "; cin >> b;
+	cout << "РІРІРµРґРёС‚Рµ РїРµСЂРІРѕРµ С‡РёСЃР»Рѕ "; cin >> a;
+	cout << "РІРІРµРґРёС‚Рµ РІС‚РѕСЂРѕРµ С‡РёСЃР»Рѕ "; cin >> b;
 	int res = a % b;
 	cout << res;
 #endif // INTEGER_5
@@ -109,26 +109,26 @@ void main()
 #ifdef INTEGER_6
 
 	int a;
-	cout << "введите двузначное число :\t"; cin >> a;
+	cout << "РІРІРµРґРёС‚Рµ РґРІСѓР·РЅР°С‡РЅРѕРµ С‡РёСЃР»Рѕ :\t"; cin >> a;
 	int b = a / 10;
-	cout << "левая цифра :\t" << b << endl;
+	cout << "Р»РµРІР°СЏ С†РёС„СЂР° :\t" << b << endl;
 	int c = a % 10;
-	cout << "правая цифра:\t" << c << endl;
+	cout << "РїСЂР°РІР°СЏ С†РёС„СЂР°:\t" << c << endl;
 
 #endif // INTEGER_6
 
 #ifdef INTEGER_7
 	int a;
-	cout << "введите двузначное число:\t"; cin >> a;
+	cout << "РІРІРµРґРёС‚Рµ РґРІСѓР·РЅР°С‡РЅРѕРµ С‡РёСЃР»Рѕ:\t"; cin >> a;
 	int sum = (a / 10) + (a % 10);
-	cout << "сумма=\t" << sum << endl;
+	cout << "СЃСѓРјРјР°=\t" << sum << endl;
 	int  work = (a / 10) * (a % 10);
-	cout << "произведение=\t" << work;
+	cout << "РїСЂРѕРёР·РІРµРґРµРЅРёРµ=\t" << work;
 #endif // INTEGER_7
 
 #ifdef INTEGER_8
 	int a;
-	cout << "введите двузначное число :\t"; cin >> a;
+	cout << "РІРІРµРґРёС‚Рµ РґРІСѓР·РЅР°С‡РЅРѕРµ С‡РёСЃР»Рѕ :\t"; cin >> a;
 	int b = a / 10;
 	int c = a % 10;
 	cout << c << b;
@@ -137,9 +137,9 @@ void main()
 #ifdef INTEGER_9
 
 	int a;
-	cout << "введите трехзачное число:\t"; cin >> a;
+	cout << "РІРІРµРґРёС‚Рµ С‚СЂРµС…Р·Р°С‡РЅРѕРµ С‡РёСЃР»Рѕ:\t"; cin >> a;
 	int res = a / 100;
-	cout << "первая цифра (сотня):\t" << res;
+	cout << "РїРµСЂРІР°СЏ С†РёС„СЂР° (СЃРѕС‚РЅСЏ):\t" << res;
 
 #endif // INTEGER_9
 
@@ -147,39 +147,39 @@ void main()
 
 
 	int a;
-	cout << "введите трехзначное число :\t"; cin >> a;
+	cout << "РІРІРµРґРёС‚Рµ С‚СЂРµС…Р·РЅР°С‡РЅРѕРµ С‡РёСЃР»Рѕ :\t"; cin >> a;
 	int res = a % 10;
-	cout << "последня цифра(единицы):\t" << res << endl;
+	cout << "РїРѕСЃР»РµРґРЅСЏ С†РёС„СЂР°(РµРґРёРЅРёС†С‹):\t" << res << endl;
 	int res1 = a % 100 / 10;
-	cout << "средняя цифра(десятки):\t" << res1;
+	cout << "СЃСЂРµРґРЅСЏСЏ С†РёС„СЂР°(РґРµСЃСЏС‚РєРё):\t" << res1;
 #endif // INTEGER_10
 
 #ifdef INTEGER_11
 	int A;
-	cout << "введите трехзначное число :\t"; cin >> A;
-	int a = A / 100;//сотни 
-	int b = A % 100 / 10;//десятки
-	int c = A % 100 % 10;//единицы
+	cout << "РІРІРµРґРёС‚Рµ С‚СЂРµС…Р·РЅР°С‡РЅРѕРµ С‡РёСЃР»Рѕ :\t"; cin >> A;
+	int a = A / 100;//СЃРѕС‚РЅРё 
+	int b = A % 100 / 10;//РґРµСЃСЏС‚РєРё
+	int c = A % 100 % 10;//РµРґРёРЅРёС†С‹
 	int sum = a + b + c;
-	cout << "сумма трех чисел :\t" << sum << endl;
+	cout << "СЃСѓРјРјР° С‚СЂРµС… С‡РёСЃРµР» :\t" << sum << endl;
 	int work = a * b * c;
-	cout << "произведение трех чисел :\t" << work;
+	cout << "РїСЂРѕРёР·РІРµРґРµРЅРёРµ С‚СЂРµС… С‡РёСЃРµР» :\t" << work;
 
 #endif // INTEGER_11
 
 #ifdef INTEGER_12
 
 	int A;
-	cout << "введите трехзначное число:\t"; cin >> A;
+	cout << "РІРІРµРґРёС‚Рµ С‚СЂРµС…Р·РЅР°С‡РЅРѕРµ С‡РёСЃР»Рѕ:\t"; cin >> A;
 	int a = A / 100;
 	int b = A % 100 / 10;
 	int c = A % 10;
-	cout << "число \"наоборот \"\t" << c << b << a;
+	cout << "С‡РёСЃР»Рѕ \"РЅР°РѕР±РѕСЂРѕС‚ \"\t" << c << b << a;
 #endif // INTEGER_12
 
 #ifdef INTEGER_13
-	int A;//трехзначное число 
-	cout << "введите трех значное число :\t"; cin >> A;
+	int A;//С‚СЂРµС…Р·РЅР°С‡РЅРѕРµ С‡РёСЃР»Рѕ 
+	cout << "РІРІРµРґРёС‚Рµ С‚СЂРµС… Р·РЅР°С‡РЅРѕРµ С‡РёСЃР»Рѕ :\t"; cin >> A;
 	int a = A / 100;
 	int b = A % 100 / 10;
 	int c = A % 10;
@@ -190,7 +190,7 @@ void main()
 #ifdef INTEGER_14
 
 	int A;
-	cout << "введите трехзнасное число \t"; cin >> A;
+	cout << "РІРІРµРґРёС‚Рµ С‚СЂРµС…Р·РЅР°СЃРЅРѕРµ С‡РёСЃР»Рѕ \t"; cin >> A;
 	int a = A / 100;
 	int b = A % 100 / 10;
 	int c = A % 10;
@@ -199,7 +199,7 @@ void main()
 
 #ifdef FOR_1
 	int k;
-	cout << "введите число:\t"; cin >> k;
+	cout << "РІРІРµРґРёС‚Рµ С‡РёСЃР»Рѕ:\t"; cin >> k;
 	for (int n = 0; n < 5; n++)
 		cout << k << "\t";
 #endif // FOR_1
@@ -207,28 +207,28 @@ void main()
 #ifdef FOR_2
 	int sum = 0;
 	int a, b;
-	cout << "введите первое число :\t"; cin >> a;
-	cout << "введите второе число :\t"; cin >> b;
+	cout << "РІРІРµРґРёС‚Рµ РїРµСЂРІРѕРµ С‡РёСЃР»Рѕ :\t"; cin >> a;
+	cout << "РІРІРµРґРёС‚Рµ РІС‚РѕСЂРѕРµ С‡РёСЃР»Рѕ :\t"; cin >> b;
 	for (int i = a; i <= b; i++)
 	{
 
 		cout << i << "\t";
 	}
-	cout << "количество чисел:\t";
+	cout << "РєРѕР»РёС‡РµСЃС‚РІРѕ С‡РёСЃРµР»:\t";
 	sum = b - a + 1;
 	cout << sum;
 #endif // FOR_2
 
 #ifdef FOR_3
 	int a, b;
-	cout << "введите первое число :\t"; cin >> a;
-	cout << "введите второе число :\t"; cin >> b;
+	cout << "РІРІРµРґРёС‚Рµ РїРµСЂРІРѕРµ С‡РёСЃР»Рѕ :\t"; cin >> a;
+	cout << "РІРІРµРґРёС‚Рµ РІС‚РѕСЂРѕРµ С‡РёСЃР»Рѕ :\t"; cin >> b;
 
 	for (int i = --b; i > a; --i)
 	{
 		cout << i << "\n";
 	}
-	cout << "количество чисел :\t";
+	cout << "РєРѕР»РёС‡РµСЃС‚РІРѕ С‡РёСЃРµР» :\t";
 	int sum = b - a;
 	cout << sum;
 
@@ -237,7 +237,7 @@ void main()
 
 #ifdef FOR_4
 	double a;
-	cout << "введите стоимость конфет :"; cin >> a;
+	cout << "РІРІРµРґРёС‚Рµ СЃС‚РѕРёРјРѕСЃС‚СЊ РєРѕРЅС„РµС‚ :"; cin >> a;
 	for (int i = 1; i <= 10; i++)
 	{
 		double sum = a * i; cout << sum << " ";
@@ -248,7 +248,7 @@ void main()
 
 #ifdef FOR_5
 	double a;
-	cout << "введите стоимость конфет:\t"; cin >> a;
+	cout << "РІРІРµРґРёС‚Рµ СЃС‚РѕРёРјРѕСЃС‚СЊ РєРѕРЅС„РµС‚:\t"; cin >> a;
 	for (float i = 1 / 10; i <= 10; i++)
 	{
 		double sum = a * i / 10; cout << sum << " ";
